@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% extends "evroclassik/base.html" %}
+
+{% block content %}
+    <div class="container-fluid">
+        <div class="list-group">
+        {% for plumbing in catalogs_plumbing %}
+            <a href="{{ plumbing.id }}/" class="list-group-item list-group-item-action">{{ plumbing }}</a>
+        {% empty %}
+            <li>No topics have been added yet.</li>
+        {% endfor %}
+        </div>
+    </div>
+
+{% endblock content %}
+</body>
+</html>

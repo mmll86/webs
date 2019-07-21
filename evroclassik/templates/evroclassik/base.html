@@ -8,14 +8,14 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <body>
     <div class="container-fluid">
-        <h1><span class="badge badge-secondary">WEBSITE</span></h1>
+        <h1 class="display-1"><span class="badge badge-secondary">Евроклассик</span></h1>
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="{% url 'evroclassik:index' %}">Главная страница</a></li>
-                <li class="breadcrumb-item"><a  href="{% url 'evroclassik:catalogs' %}">Каталог</a></li>
+                <li class="breadcrumb-item"><a  href="{% url 'evroclassik:catalogs' %}">Каталог мебели</a></li>
+                <li class="breadcrumb-item"><a href="{% url 'evroclassik:catalogs_plumbing' %}">Каталог сантехники</a></li>
                 <li class="breadcrumb-item"><a href="#">Акции</a></li>
                 <li class="breadcrumb-item"><a href="#">О компании</a></li>
-                <li class="breadcrumb-item"><a href="#">!!!!!!!!!!</a></li>
             </ol>
         </nav>
             <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
