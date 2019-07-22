@@ -54,11 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/evroclassik/templates/evroclassik/catalogs.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="420">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -90,11 +90,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/evroclassik/templates/evroclassik/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="40" column="44" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
+            <state relative-caret-position="274">
+              <caret line="43" column="18" lean-forward="true" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -132,9 +132,9 @@
         <option value="$PROJECT_DIR$/evroclassik/templates/evroclassik/plumbing.html" />
         <option value="$PROJECT_DIR$/evroclassik/models.py" />
         <option value="$PROJECT_DIR$/evroclassik/templates/evroclassik/catalog.html" />
-        <option value="$PROJECT_DIR$/evroclassik/templates/evroclassik/catalogs.html" />
         <option value="$PROJECT_DIR$/evroclassik/templates/evroclassik/catalogs_plumbing.html" />
         <option value="$PROJECT_DIR$/evroclassik/templates/evroclassik/base.html" />
+        <option value="$PROJECT_DIR$/evroclassik/templates/evroclassik/catalogs.html" />
       </list>
     </option>
   </component>
@@ -189,6 +189,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TODO_SCOPE" value="All Places" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
@@ -259,7 +260,21 @@
       <option name="project" value="LOCAL" />
       <updated>1563796619251</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="new project">
+      <created>1563797330029</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1563797330029</updated>
+    </task>
+    <task id="LOCAL-00008" summary="prob">
+      <created>1563797686058</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1563797686058</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView">
@@ -284,9 +299,9 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49960536" weight="0.32955465" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49802685" weight="0.32955465" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49565902" visible="true" weight="0.32955465" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50434095" side_tool="true" visible="true" weight="0.32955465" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49723756" weight="0.32955465" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49486977" visible="true" weight="0.32955465" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50513023" side_tool="true" visible="true" weight="0.32955465" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49921075" weight="0.32955465" />
       <window_info active="true" anchor="bottom" id="GitHub Pull Requests" order="11" sideWeight="0.49921075" weight="0.32955465" />
       <window_info anchor="bottom" id="SVN Repositories" order="12" sideWeight="0.49960536" weight="0.32955465" />
@@ -350,9 +365,11 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="new" />
     <MESSAGE value="new project" />
-    <option name="LAST_COMMIT_MESSAGE" value="new project" />
+    <MESSAGE value="prob" />
+    <option name="LAST_COMMIT_MESSAGE" value="prob" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/evroclassik/templates/urls.py" />
@@ -446,13 +463,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/evroclassik/templates/evroclassik/catalogs.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/evroclassik/templates/evroclassik/catalogs_plumbing.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
@@ -462,8 +472,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/evroclassik/templates/evroclassik/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="40" column="44" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
+        <state relative-caret-position="274">
+          <caret line="43" column="18" lean-forward="true" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/evroclassik/templates/evroclassik/catalogs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
