@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Каталог мебели</title>
 </head>
 <body>
     {% extends "evroclassik/base.html" %}
 
     {% block content %}
-    <div class="container-fluid">
+    <div class="container">
         <div class="list-group">
             {% for catalog in catalogs %}
                 <a href="{{ catalog.id }}/" class="list-group-item list-group-item-action">{{ catalog }}</a>
@@ -21,3 +21,17 @@
     {% endblock content %}
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
