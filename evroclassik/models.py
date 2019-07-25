@@ -9,8 +9,6 @@ class Catalog(models.Model):
 		return self.text
 
 
-
-
 class Furniture(models.Model):
 	name = models.ForeignKey('Catalog', on_delete=models.PROTECT)
 	name_furniture = models.CharField(max_length=50, blank=True)

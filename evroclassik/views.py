@@ -30,3 +30,4 @@ def plumbing(request, plumbing_id):
 	plumbings= plumbing.plumbing_set.order_by('-date_added')
 	context = {'plumbing': plumbing, 'plumbings': plumbings }
 	return render(request, 'evroclassik/plumbing.html', context)
+
