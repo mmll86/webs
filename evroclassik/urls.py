@@ -12,4 +12,5 @@ urlpatterns = [
 
 	path('catalogs_plumbing/', views.catalogs_plumbing, name='catalogs_plumbing'),
     re_path('catalogs_plumbing/(?P<plumbing_id>\d+)/', views.plumbing, name='plumbing'),
+
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

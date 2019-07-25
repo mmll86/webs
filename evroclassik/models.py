@@ -12,7 +12,8 @@ class Catalog(models.Model):
 class Furniture(models.Model):
 	name = models.ForeignKey('Catalog', on_delete=models.PROTECT)
 	name_furniture = models.CharField(max_length=50, blank=True)
-	image = models.ImageField(upload_to='image/evroclassik/furniture', help_text='300x300px', verbose_name='Ссылка картинки', blank=True)
+	image = models.ImageField(upload_to='image/evroclassik/furniture', help_text='300x300px',
+							  verbose_name='Ссылка картинки', blank=True)
 	price = models.IntegerField()
 	text = models.TextField()
 	date_added = models.DateTimeField(auto_now_add=True)

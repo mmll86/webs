@@ -4,17 +4,12 @@
     <option name="SCOPE_TYPE" value="10" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4cb21c7-2cfc-438f-bca4-7f3e22e85dd9" name="Default Changelist" comment="prob">
-      <change afterPath="$PROJECT_DIR$/evroclassik/templates/evroclassik/media/image/evroclassik/furniture/5b1ec126074b3e2aa274bf03.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/web.iml" afterDir="false" />
+    <list default="true" id="e4cb21c7-2cfc-438f-bca4-7f3e22e85dd9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evroclassik/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/evroclassik/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/evroclassik/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/evroclassik/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evroclassik/templates/evroclassik/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/evroclassik/templates/evroclassik/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evroclassik/templates/evroclassik/catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/evroclassik/templates/evroclassik/catalog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evroclassik/templates/evroclassik/catalogs.html" beforeDir="false" afterPath="$PROJECT_DIR$/evroclassik/templates/evroclassik/catalogs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evroclassik/templates/evroclassik/catalogs_plumbing.html" beforeDir="false" afterPath="$PROJECT_DIR$/evroclassik/templates/evroclassik/catalogs_plumbing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evroclassik/templates/evroclassik/media/image/evroclassik/furniture/5b1ec126074b3e2aa274bf03.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/evroclassik/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/evroclassik/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/evroclassik/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/evroclassik/views.py" afterDir="false" />
     </list>
@@ -32,17 +27,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/evroclassik/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="446">
+              <caret line="54" column="29" lean-forward="true" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/evroclassik/admin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/evroclassik/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="15" column="48" lean-forward="true" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+            <state relative-caret-position="198">
+              <caret line="11" column="64" lean-forward="true" selection-start-line="11" selection-start-column="64" selection-end-line="11" selection-end-column="64" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -54,7 +61,7 @@
         <entry file="file://$PROJECT_DIR$/evroclassik/templates/evroclassik/catalogs.html">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
+              <caret column="15" selection-start-column="15" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -62,8 +69,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/evroclassik/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+            <state relative-caret-position="270">
+              <caret line="15" column="67" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -72,19 +79,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1242">
-              <caret line="69" column="59" selection-start-line="69" selection-start-column="59" selection-end-line="69" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/evroclassik/templates/evroclassik/catalog.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+            <state relative-caret-position="306">
+              <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -92,8 +90,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/evroclassik/templates/evroclassik/catalogs_plumbing.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="37" lean-forward="true" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+            <state relative-caret-position="54">
+              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -102,7 +100,7 @@
         <entry file="file://$PROJECT_DIR$/evroclassik/templates/evroclassik/base.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="36">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" selection-end-column="22" />
+              <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -120,6 +118,7 @@
   <component name="FindInProjectRecents">
     <dirStrings>
       <dir>$PROJECT_DIR$/evroclassik/static</dir>
+      <dir>$PROJECT_DIR$/evroclassik/templates/evroclassik/media/image/evroclassik/furniture</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -136,18 +135,18 @@
         <option value="$PROJECT_DIR$/evroclassik/templates/urls.py" />
         <option value="$PROJECT_DIR$/web/urls.py" />
         <option value="$PROJECT_DIR$/evroclassik/templates/evroclassik/css/index.css" />
-        <option value="$PROJECT_DIR$/evroclassik/admin.py" />
         <option value="$PROJECT_DIR$/evroclassik/templates/evroclassik/catalogs_plumbings.html" />
         <option value="$PROJECT_DIR$/evroclassik/templates/evroclassik/catalogs_plumbing.html" />
         <option value="$PROJECT_DIR$/evroclassik/templates/evroclassik/plumbing.html" />
         <option value="$PROJECT_DIR$/evroclassik/templates/evroclassik/index.html" />
-        <option value="$PROJECT_DIR$/web/settings.py" />
-        <option value="$PROJECT_DIR$/evroclassik/models.py" />
         <option value="$PROJECT_DIR$/evroclassik/templates/evroclassik/catalogs.html" />
-        <option value="$PROJECT_DIR$/evroclassik/views.py" />
-        <option value="$PROJECT_DIR$/evroclassik/urls.py" />
         <option value="$PROJECT_DIR$/evroclassik/templates/evroclassik/base.html" />
+        <option value="$PROJECT_DIR$/web/settings.py" />
         <option value="$PROJECT_DIR$/evroclassik/templates/evroclassik/catalog.html" />
+        <option value="$PROJECT_DIR$/evroclassik/models.py" />
+        <option value="$PROJECT_DIR$/evroclassik/admin.py" />
+        <option value="$PROJECT_DIR$/evroclassik/urls.py" />
+        <option value="$PROJECT_DIR$/evroclassik/views.py" />
       </list>
     </option>
   </component>
@@ -178,19 +177,6 @@
             <path>
               <item name="webs" type="b2602c69:ProjectViewProjectNode" />
               <item name="webs" type="462c0819:PsiDirectoryNode" />
-              <item name="evroclassik" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webs" type="462c0819:PsiDirectoryNode" />
-              <item name="evroclassik" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="evroclassik" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webs" type="462c0819:PsiDirectoryNode" />
               <item name="media" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -213,11 +199,6 @@
               <item name="image" type="462c0819:PsiDirectoryNode" />
               <item name="evroclassik" type="462c0819:PsiDirectoryNode" />
               <item name="furniture" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webs" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -326,7 +307,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564018214184</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Добавил вывод ссылки картинки">
+      <created>1564027111532</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1564027111532</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView">
@@ -342,6 +330,28 @@
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.499187" visible="true" weight="0.18934599" />
+      <window_info id="Structure" order="1" sideWeight="0.500813" side_tool="true" weight="0.13607594" />
+      <window_info id="Favorites" order="2" sideWeight="0.500813" side_tool="true" weight="0.13607594" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32955465" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49841774" weight="0.3293348" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49630803" weight="0.3293348" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49050632" visible="true" weight="0.33478734" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50949365" side_tool="true" weight="0.33478734" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49921075" weight="0.32955465" />
+      <window_info active="true" anchor="bottom" id="GitHub Pull Requests" order="11" sideWeight="0.49921075" weight="0.32955465" />
+      <window_info anchor="bottom" id="SVN Repositories" order="12" sideWeight="0.49960536" weight="0.32955465" />
+      <window_info anchor="bottom" id="Inspection Results" order="13" sideWeight="0.49921075" weight="0.32955465" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.499187" visible="true" weight="0.13607594" />
       <window_info id="Structure" order="1" sideWeight="0.500813" side_tool="true" weight="0.13607594" />
       <window_info id="Favorites" order="2" sideWeight="0.500813" side_tool="true" weight="0.13607594" />
@@ -362,7 +372,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
@@ -423,7 +433,8 @@
     <MESSAGE value="new project" />
     <MESSAGE value="prob" />
     <MESSAGE value="добавили: load staticfiles&#10;          MEDIA_DIR&#10;&#10;Обновили: ImageFiels in class Furniture&#10;&#10;Переместили: endblock content&#10;&#10;Удалить: info.city" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавили: load staticfiles&#10;          MEDIA_DIR&#10;&#10;Обновили: ImageFiels in class Furniture&#10;&#10;Переместили: endblock content&#10;&#10;Удалить: info.city" />
+    <MESSAGE value="Добавил вывод ссылки картинки" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил вывод ссылки картинки" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/evroclassik/templates/urls.py" />
@@ -445,16 +456,6 @@
     <entry file="file://$PROJECT_DIR$/evroclassik/templates/evroclassik/css/base.css" />
     <entry file="file://$PROJECT_DIR$/evroclassik/templates/evroclassik/css/index.css" />
     <entry file="file://$PROJECT_DIR$/evroclassik/templates/evroclassik/catalogs_plumbings.html" />
-    <entry file="file://$PROJECT_DIR$/web/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="67" selection-start-line="21" selection-start-column="67" selection-end-line="21" selection-end-column="67" />
-          <folding>
-            <element signature="e#627#659#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/evroclassik/templates/evroclassik/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -484,78 +485,97 @@
     <entry file="file://$PROJECT_DIR$/.idea/web.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="67" selection-start-line="21" selection-start-column="67" selection-end-line="21" selection-end-column="67" />
+          <folding>
+            <element signature="e#627#659#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/evroclassik/templates/evroclassik/media/image/evroclassik/furniture/5b1ec126074b3e2aa274bf03_2FbLbHf.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/evroclassik/templates/evroclassik/media/image/evroclassik/furniture/5b1ec126074b3e2aa274bf03_67o3NVC.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/evroclassik/templates/evroclassik/catalogs_plumbing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/evroclassik/templates/evroclassik/media/image/evroclassik/furniture/5b1ec126074b3e2aa274bf03.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/media/image/evroclassik/furniture/5b1ec126074b3e2aa274bf03.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/evroclassik/admin.py">
+    <entry file="file://$PROJECT_DIR$/evroclassik/templates/evroclassik/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="36">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1462">
+          <caret line="21" column="62" selection-start-line="21" selection-start-column="62" selection-end-line="21" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/evroclassik/templates/evroclassik/catalog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/evroclassik/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+        <state relative-caret-position="270">
+          <caret line="15" column="67" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/settings.py">
+    <entry file="file://$PROJECT_DIR$/evroclassik/templates/evroclassik/catalogs.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1242">
-          <caret line="69" column="59" selection-start-line="69" selection-start-column="59" selection-end-line="69" selection-end-column="59" />
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/evroclassik/templates/evroclassik/catalogs_plumbing.html">
+    <entry file="file://$PROJECT_DIR$/evroclassik/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="37" lean-forward="true" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/evroclassik/templates/evroclassik/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/evroclassik/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="15" column="48" lean-forward="true" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+        <state relative-caret-position="126">
+          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/evroclassik/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="446">
+          <caret line="54" column="29" lean-forward="true" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/evroclassik/templates/evroclassik/catalogs.html">
+    <entry file="file://$PROJECT_DIR$/evroclassik/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/evroclassik/templates/evroclassik/catalog.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+        <state relative-caret-position="198">
+          <caret line="11" column="64" lean-forward="true" selection-start-line="11" selection-start-column="64" selection-end-line="11" selection-end-column="64" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

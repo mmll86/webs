@@ -31,3 +31,6 @@ def plumbing(request, plumbing_id):
 	context = {'plumbing': plumbing, 'plumbings': plumbings }
 	return render(request, 'evroclassik/plumbing.html', context)
 
+
+
+
