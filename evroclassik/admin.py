@@ -5,3 +5,4 @@ admin.site.register(Catalog)
 admin.site.register(Furniture)
 admin.site.register(CatalogPlumbing)
 admin.site.register(Plumbing)
+

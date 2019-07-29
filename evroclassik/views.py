@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from .models import Catalog, CatalogPlumbing, Slider
+from .models import Catalog, CatalogPlumbing
 
 
 def index(request):
@@ -32,9 +32,3 @@ def plumbing(request, plumbing_id):
     plumbings = plumbing.plumbing_set.order_by('-date_added')
     context = {'plumbing': plumbing, 'plumbings': plumbings}
     return render(request, 'evroclassik/plumbing.html', context)
-
-
-def base(request):
-    sliders = Slider.objects.order_by('text')
-    context = {'sliders': sliders}
-    return render(request, 'evroclassik/base.html', context)

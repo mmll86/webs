@@ -49,10 +49,3 @@ class Plumbing(models.Model):
     def __str__(self):
         return (f'{self.name_plumbing}, {self.price} рублей, добавили: ({self.date_added})')
 
-
-class Slider(models.Model):
-    image = models.ImageField(upload_to='image/evroclassik/slider', verbose_name='Ссылка картинки', blank=True)
-    text = models.TextField()
-
-    def __str__(self):
-        return self.text
