@@ -1,0 +1,11 @@
+_build/
+*.mo
+*.pyc
+*.po~
+venv/
+evr/
+ll_en/
+*.sublime-*
+*.log
+.github.auth
+.emacs.*
