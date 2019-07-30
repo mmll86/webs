@@ -49,3 +49,24 @@ class Plumbing(models.Model):
     def __str__(self):
         return (f'{self.name_plumbing}, {self.price} рублей, добавили: ({self.date_added})')
 
+class HeadSlider(models.Model):
+    image = models.ImageField(upload_to='image/evroclassik/headslider',
+                              verbose_name='Ссылка картинки', blank=True)
+    name = models.CharField(max_length=100, blank=True)
+
+    class Meta:
+        verbose_name_plural = 'Главный слайд'
+
+    def __str__(self):
+        return self.name
+
+class Slider(models.Model):
+    image = models.ImageField(upload_to='image/evroclassik/slider',
+                              verbose_name='Ссылка картинки', blank=True)
+    name = models.CharField(max_length=100, blank=True)
+
+    class Meta:
+        verbose_name_plural = 'Cлайды'
+
+    def __str__(self):
+        return self.name

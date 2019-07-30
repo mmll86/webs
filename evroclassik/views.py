@@ -1,9 +1,12 @@
 from django.shortcuts import render
-from .models import Catalog, CatalogPlumbing
+from .models import Catalog, CatalogPlumbing, HeadSlider, Slider
 
 
 def index(request):
-    return render(request, "evroclassik/index.html")
+    headslider = HeadSlider.objects.all()
+    slider = Slider.objects.all()
+    context = {'headslider': headslider, 'slider': slider}
+    return render(request, "evroclassik/index.html", context)
 
 
 # Каталог мебели
@@ -32,3 +35,4 @@ def plumbing(request, plumbing_id):
     plumbings = plumbing.plumbing_set.order_by('-date_added')
     context = {'plumbing': plumbing, 'plumbings': plumbings}
     return render(request, 'evroclassik/plumbing.html', context)
+

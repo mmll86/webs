@@ -1,20 +1,36 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <title>Главная страница</title>
-
-</head>
-<body>
-
     {% extends "evroclassik/base.html" %}
 
+
     {% block content %}
+
     <div class="container">
-        <h1>Its Work!</h1>
-         <p >{{ info.city }}</p>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+                <div class="carousel-inner">
+                    {% for head in headslider %}
+                    <div class="carousel-item active">
+<!--                    <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: First slide"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#555" dy=".3em">First slide 1</text></svg>-->
+                        <img src="/media/{{ head.image }}"  class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: First slide" alt="...">
+                    </div>
+                    {% endfor %}
+                    {% for slide in  slider %}
+                    <div class="carousel-item">
+<!--                    <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: First slide"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#555" dy=".3em">First slide 1</text></svg>-->
+                        <img src="/media/{{ slide.image }}"  class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: First slide" alt="...">
+                    </div>
+                    {% endfor %}
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+                </a>
+            </div>
+        <h1 class="mt-5">Its Work!</h1>
         <p>How the documentation is organized¶
-Django has a lot of documentation. A high-level overview of how it’s organized will help you know where to look for certain things:
+            Django has a lot of documentation. A high-level overview of how it’s organized will help you know where to look for certain things:
 
 Tutorials take you by the hand through a series of steps to create a Web application. Start here if you’re new to Django or Web application development. Also look at the “First steps” below.
 Topic guides discuss key topics and concepts at a fairly high level and provide useful background information and explanation.
@@ -107,27 +123,7 @@ Sitemaps
 Static files management
 Data validation
 Other core functionalities¶
-Learn about some other core functionalities of the Django framework:
-
-Conditional content processing
-Content types and generic relations
-Flatpages
-Redirects
-Signals
-System check framework
-The sites framework
-Unicode in Django
-The Django open-source project¶
-Learn about the development process for the Django project itself and about how you can contribute:
-
-Community: How to get involved | The release process | Team organization | The Django source code repository | Security policies | Mailing lists
-Design philosophies: Overview
-Documentation: About this documentation
-Third-party distributions: Overview
-Django over time: API stability | Release notes and upgrading instructions | Deprecation Timeline
 Django documentation contents</p>
     </div>
-    {% endblock content %}
 
-</body>
-</html>
+    {% endblock content %}
