@@ -5,6 +5,9 @@ class Catalog(models.Model):
     text = models.CharField(max_length=200, blank=True)
     date_added = models.DateTimeField(auto_now_add=True)
 
+    class Meta:
+        verbose_name_plural = 'Каталог Мебели'
+
     def __str__(self):
         return self.text
 
@@ -19,7 +22,7 @@ class Furniture(models.Model):
     date_added = models.DateTimeField(auto_now_add=True)
 
     class Meta:
-        verbose_name_plural = 'furnitures'
+        verbose_name_plural = 'Мебель'
 
     def __str__(self):
         return (f'{self.name_furniture}, {self.price} рублей, добавили: ({self.date_added})')
@@ -29,6 +32,9 @@ class CatalogPlumbing(models.Model):
     text = models.CharField(max_length=200, blank=True)
     # image = models.ImageField(upload_to='media')
     date_added = models.DateTimeField(auto_now_add=True)
+
+    class Meta:
+        verbose_name_plural = 'Каталог Сантехники'
 
     def __str__(self):
         return self.text
@@ -44,7 +50,7 @@ class Plumbing(models.Model):
     date_added = models.DateTimeField(auto_now_add=True)
 
     class Meta:
-        verbose_name_plural = 'plumbings'
+        verbose_name_plural = 'Сантехника и ванные принадлежности'
 
     def __str__(self):
         return (f'{self.name_plumbing}, {self.price} рублей, добавили: ({self.date_added})')
