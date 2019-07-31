@@ -76,3 +76,13 @@ class Slider(models.Model):
 
     def __str__(self):
         return self.name
+
+class InfoCompany(models.Model):
+    headache = models.CharField(max_length=50, blank=True)
+    text = models.TextField()
+
+    class Meta:
+        verbose_name_plural = 'Информация о компании'
+
+    def __str__(self):
+        return (f'Заголово: {self.headache} текст: {self.text}')

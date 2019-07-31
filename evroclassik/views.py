@@ -1,11 +1,12 @@
 from django.shortcuts import render
-from .models import Catalog, CatalogPlumbing, HeadSlider, Slider
+from .models import Catalog, CatalogPlumbing, HeadSlider, Slider, InfoCompany
 
 
 def index(request):
     headslider = HeadSlider.objects.all()
     slider = Slider.objects.all()
-    context = {'headslider': headslider, 'slider': slider}
+    info_company = InfoCompany.objects.all()
+    context = {'headslider': headslider, 'slider': slider, 'info_company': info_company}
     return render(request, "evroclassik/index.html", context)
 
 
