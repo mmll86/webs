@@ -2,6 +2,7 @@ from django.shortcuts import render
 from .models import Catalog, CatalogPlumbing, HeadSlider, Slider, InfoCompany
 
 
+# Главная страница сайта
 def index(request):
     headslider = HeadSlider.objects.all()
     slider = Slider.objects.all()
