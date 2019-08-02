@@ -4,7 +4,7 @@
     <option name="SCOPE_TYPE" value="10" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4cb21c7-2cfc-438f-bca4-7f3e22e85dd9" name="Default Changelist" comment="last version 31/07/2019-2">
+    <list default="true" id="e4cb21c7-2cfc-438f-bca4-7f3e22e85dd9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/evroclassik/templates/evroclassik/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/evroclassik/templates/evroclassik/base.html" afterDir="false" />
@@ -71,7 +71,7 @@
         <entry file="file://$PROJECT_DIR$/evroclassik/templates/evroclassik/base.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="15" column="72" selection-start-line="15" selection-start-column="72" selection-end-line="15" selection-end-column="72" />
+              <caret line="15" column="59" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -369,7 +369,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564565281867</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Исправлен шаблон Base and Index&#10;last version 02/08/2019">
+      <created>1564737379156</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1564737379156</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TodoView">
@@ -495,7 +502,8 @@
     <MESSAGE value="last version 30/07/2019" />
     <MESSAGE value="last version 31/07/2019" />
     <MESSAGE value="last version 31/07/2019-2" />
-    <option name="LAST_COMMIT_MESSAGE" value="last version 31/07/2019-2" />
+    <MESSAGE value="Исправлен шаблон Base and Index&#10;last version 02/08/2019" />
+    <option name="LAST_COMMIT_MESSAGE" value="Исправлен шаблон Base and Index&#10;last version 02/08/2019" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -656,7 +664,7 @@
     <entry file="file://$PROJECT_DIR$/evroclassik/templates/evroclassik/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="15" column="72" selection-start-line="15" selection-start-column="72" selection-end-line="15" selection-end-column="72" />
+          <caret line="15" column="59" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
         </state>
       </provider>
     </entry>
