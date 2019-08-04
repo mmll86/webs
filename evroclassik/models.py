@@ -2,7 +2,7 @@ from django.db import models
 
 
 class Catalog(models.Model):
-    text = models.CharField(max_length=200, blank=True)
+    text = models.CharField(max_length=200, blank=True, verbose_name='Наименование')
     date_added = models.DateTimeField(auto_now_add=True)
 
     class Meta:
@@ -13,13 +13,13 @@ class Catalog(models.Model):
 
 
 class Furniture(models.Model):
-    name = models.ForeignKey('Catalog', on_delete=models.PROTECT)
-    name_furniture = models.CharField(max_length=50, blank=True)
+    name = models.ForeignKey('Catalog', verbose_name='Каталог', on_delete=models.PROTECT)
+    name_furniture = models.CharField(max_length=50, blank=True, verbose_name='Наименование')
     image = models.ImageField(upload_to='image/evroclassik/furniture', help_text='300x300px',
                               verbose_name='Ссылка картинки', blank=True)
-    price = models.IntegerField()
-    text = models.TextField()
-    date_added = models.DateTimeField(auto_now_add=True)
+    price = models.IntegerField(verbose_name='Цена')
+    text = models.TextField(verbose_name='Описание')
+    date_added = models.DateTimeField(auto_now_add=True, verbose_name='Дата')
 
     class Meta:
         verbose_name_plural = 'Мебель'
@@ -29,7 +29,7 @@ class Furniture(models.Model):
 
 
 class CatalogPlumbing(models.Model):
-    text = models.CharField(max_length=200, blank=True)
+    text = models.CharField(max_length=200, blank=True, verbose_name='Наименование')
     # image = models.ImageField(upload_to='media')
     date_added = models.DateTimeField(auto_now_add=True)
 
@@ -41,13 +41,13 @@ class CatalogPlumbing(models.Model):
 
 
 class Plumbing(models.Model):
-    name = models.ForeignKey('CatalogPlumbing', on_delete=models.PROTECT)
-    name_plumbing = models.CharField(max_length=50, blank=True)
+    name = models.ForeignKey('CatalogPlumbing', verbose_name='Каталог', on_delete=models.PROTECT)
+    name_plumbing = models.CharField(max_length=50, verbose_name='Наименование', blank=True)
     image = models.ImageField(upload_to='image/evroclassik/plumbing', help_text='300x300px',
                               verbose_name='Ссылка картинки', blank=True)
-    price = models.IntegerField()
-    text = models.TextField()
-    date_added = models.DateTimeField(auto_now_add=True)
+    price = models.IntegerField(verbose_name='Цена')
+    text = models.TextField(verbose_name='Описание')
+    date_added = models.DateTimeField(verbose_name='Дата', auto_now_add=True)
 
     class Meta:
         verbose_name_plural = 'Сантехника и ванные принадлежности'

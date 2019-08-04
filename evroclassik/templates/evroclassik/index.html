@@ -2,15 +2,16 @@
 
     {% block content %}
 
-<!--                Слайдер сайта-->
+
+<div class="row no-gutters bg-light position-relative shadow-lg p-3 mb-5 bg-white rounded">
+  <div class="col-md-6 mb-md-0">
     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
         <div class="carousel-inner">
-
 <!--            Первая страница слайдара-->
             {% for head in headslider %}
             <div class="carousel-item active">
 <!--            <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: First slide"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#555" dy=".3em">First slide 1</text></svg>-->
-                <img src="/media/{{ head.image }}"  class="d-block w-100" height="500" alt="...">
+                <img src="/media/{{ head.image }}" class="d-block w-100" alt="...">
             </div>
             {% endfor %}
 
@@ -18,7 +19,7 @@
             {% for slide in  slider %}
             <div class="carousel-item">
 <!--            <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: First slide"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#555" dy=".3em">First slide 1</text></svg>-->
-                <img src="/media/{{ slide.image }}"  class="d-block w-100" height="500" alt="...">
+                <img src="/media/{{ slide.image }}" class="d-block w-100" alt="...">
             </div>
             {% endfor %}
         </div>
@@ -31,6 +32,15 @@
             <span class="sr-only">Next</span>
         </a>
     </div>
+  </div>
+  <div class="col-md-6 position-static pl-4">
+    <h5 class="mt-0">Columns with stretched link</h5>
+    <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.</p>
+    <a href="#" class="stretched-link">Go somewhere</a>
+  </div>
+</div>
+<!--                Слайдер сайта-->
+
     {% for info in info_company %}
     <h1 class="display-5 font-italic">{{ info.headache }}</h1>
     <p class="lead font-italic">{{ info.text }}</p>
